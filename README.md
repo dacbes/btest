@@ -16,11 +16,17 @@ El usuario, siempre que pertenezca al grupo **btest**, podra subir un programa c
 
 - Crea un directori a /etc/btest/$name i copia-hi els fitxers:
 
-    manifest.txt  
-    
-    els fitxers d'entrada, e.g. in1.txt in2.txt 
-    
-    el fitxer del codi font, e.g. test1.c 
+    - manifest.txt  
+
+    NAME: EX1
+    COMMENT: Manifest de prova. Just testing ;-)
+    SOURCE: test1.c
+    IN: in1.txt in2.txt
+    OUT: out1.txt out2.txt
+
+    - els fitxers d'entrada, e.g. in1.txt in2.txt 
+ 
+    - el fitxer del codi font, e.g. test1.c 
 
 - Embelleix el codi font amb la comanda indent
 
